@@ -4,12 +4,6 @@
 
 This project demonstrates the integration of LoRa communication with Delay-Tolerant Networking (DTN) protocols using DTN7 and uD3TN. The system is designed to enable efficient data transmission in scenarios where network connectivity is intermittent, leveraging LoRa's long-range and low-power characteristics with the robust data delivery mechanisms of DTN.
 
-### Features
-- **LoRa and DTN Protocol Integration**: Combines LoRa's low-power transmission with DTN's disruption-tolerant capabilities.
-- **Customizable Setup**: Easily modify configurations for CLA_LoRa and DTN nodes.
-- **End-to-End Workflow**: Test the entire system, from data transmission via LoRa to delivery over DTN nodes.
-- **Extensible Design**: Supports future enhancements such as automated service initialization and error handling.
-
 ---
 
 ## Repository Structure
