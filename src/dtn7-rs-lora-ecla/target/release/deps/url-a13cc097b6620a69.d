@@ -1,0 +1,13 @@
+/home/grmn/dtn7-rs-lora-ecla/target/release/deps/liburl-a13cc097b6620a69.rmeta: /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/lib.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/host.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/origin.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/parser.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/path_segments.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/slicing.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/quirks.rs
+
+/home/grmn/dtn7-rs-lora-ecla/target/release/deps/liburl-a13cc097b6620a69.rlib: /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/lib.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/host.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/origin.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/parser.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/path_segments.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/slicing.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/quirks.rs
+
+/home/grmn/dtn7-rs-lora-ecla/target/release/deps/url-a13cc097b6620a69.d: /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/lib.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/host.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/origin.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/parser.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/path_segments.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/slicing.rs /home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/quirks.rs
+
+/home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/lib.rs:
+/home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/host.rs:
+/home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/origin.rs:
+/home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/parser.rs:
+/home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/path_segments.rs:
+/home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/slicing.rs:
+/home/grmn/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/quirks.rs:
