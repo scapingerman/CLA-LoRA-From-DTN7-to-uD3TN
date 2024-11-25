@@ -74,13 +74,13 @@ If you're working with the **Heltec LoRa 32 V3** model, keep in mind that this m
 On **Windows 11**, you may face issues when trying to flash the firmware correctly. One interesting detail is that, in some cases, the operating system requires that the folder path where the project is stored doesn't contain any **spaces** or **special characters**. It might seem trivial, but I spent hours searching for a solution, and the fix turned out to be as simple as renaming the project folder and removing those characters! Although I haven't found the exact link again where I discovered this solution, I hope this helps others in similar situations.
 
 ### Using **PlatformIO** with **rf95modem**
-For those interested in using **PlatformIO** as firmware for their **Heltec LoRa 32 V3** projects, you can use the **rf95modem** firmware. This is an excellent option for working with LoRa and leveraging the **ESP32-S3**. Below is the link to the **rf95modem** project on GitHub, which can serve as a foundation for your implementation:
+For those interested in using **PlatformIO** as firmware for their **Heltec LoRa 32 V3** projects, you can use the **rf95modem** firmware. This is an excellent option for working with LoRa.
 
 - **rf95modem firmware**: [https://github.com/gh0st42/rf95modem](https://github.com/gh0st42/rf95modem)
 
 ### Problem Encountered and Solution in the **rf95modem** Repository
 
-I was attempting to implement the **rf95modem** firmware on the **Heltec LoRa 32 V3**, which uses the **ESP32-S3** microcontroller. After correctly configuring the pins in the `platformio.ini` file (as shown below), the build was successful, but when I tried to open the serial monitor in **Arduino IDE**, I encountered the following error during LoRa radio initialization:
+I was attempting to implement the **rf95modem** firmware on the **Heltec LoRa 32 V3**. After correctly configuring the pins in the `platformio.ini` file (as shown below), the build was successful, but when I tried to open the serial monitor in **Arduino IDE**, I encountered the following error during LoRa radio initialization:
 ```bash
 ESP-ROM:esp32s3-20210327 Build:Mar 27 2021 rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT) SPIWP:0xee mode:DIO, clock div:1 load:0x3fce3808,len:0x4bc load:0x403c9700,len:0xbd8 load:0x403cc700,len:0x2a0c entry 0x403c98d0 rf95modem firmware (v0.7.4) Copyright (c) 2018, 2019 Lars Baumgaertner +FAIL: LoRa radio init
 ```
