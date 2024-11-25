@@ -1,0 +1,30 @@
+{
+    "lora": {
+      "agent_type": "websocket",
+      "agent_arg": "0.0.0.0:8291:node1"
+    },
+    "ecla": {
+      "addr": "127.0.0.1:3000",
+      "module_name": "LoR4"
+    },
+    "dtnd_executable": "/home/grmn/lora-dtn-integration/src/dtn7-rs/target/release/dtnd",
+    "dtnd": {
+      "args": "-w 3000 -r first-contact -e incoming -n dtn://node1/ --ecla -d -i 7s"
+    },
+    "strategy": {
+      "name": "quadrant",
+      "config": {
+        "SEND_INTERVAL": "22s"
+      }
+    },
+    "airtime": {
+      "preamble_len": 6.0,
+      "spreading_factor": 7.0,
+      "band_width": 125.0,
+      "coding_rate": 5.0,
+      "crc": true,
+      "explicit_header": true,
+      "low_data_rate_optimization": false
+    },
+    "web_port": 7262
+  }
