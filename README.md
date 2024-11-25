@@ -14,10 +14,10 @@ This project demonstrates the integration of LoRa communication with Delay-Toler
 ├── docs/                 # Additional documentation
 │   ├── architecture.md   # System architecture details
 │   ├── setup_instructions.md # Detailed setup steps
-│   ├── testing_and_results.md # Testing methodology and results
+│   ├── results.md # Testing methodology and results
 ├── src/                  # Source code
 │   ├── websocket/        # WebSocket integration for data handling
-│   │   ├── psdata.py
+│   │   ├
 │   │   ├── TXwebsocket.py
 │   │   ├── RXwebsocket_to_ud3tn.py
 │   ├── lora/             # LoRa module scripts
@@ -26,9 +26,8 @@ This project demonstrates the integration of LoRa communication with Delay-Toler
 │   ├── dtn7-rs-lora-ecla/ # DTN7 with LoRa CLA implementation
 │   └── dtn7/             # DTN7 core
 ├── configs/              # Configuration files
-│   ├── dtn7-rs-lora-ecla-config.json
-│   ├── dtn7-config.toml
-└── simulations/          # Results and scripts for simulations
+│   ├── dtn7-rs-lora-ecla-config.json│   
+
 ```
 # Prerequisites
 
