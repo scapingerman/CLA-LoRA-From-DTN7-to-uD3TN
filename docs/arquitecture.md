@@ -8,8 +8,7 @@ This project integrates **LoRaWAN** and **DTN** technologies to enable reliable 
 
 ## Workflow Diagram
 
-((( Data Source )))                                                      
-(image)
+![Diagram](diagram.jpg)
 
 
 
