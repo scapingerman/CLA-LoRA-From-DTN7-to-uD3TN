@@ -17,8 +17,8 @@
    
    - Clone and build uD3TN:
      ```bash
-      git clone https://gitlab.com/d3tn/ud3tn.git
-      cd ud3tn
+     git clone https://gitlab.com/d3tn/ud3tn.git
+     cd ud3tn
      git submodule update --init --recursive
      make posix     
      ```
@@ -30,7 +30,7 @@
 ### 1. Configure Components
 
 - **CLA_LoRa:**
-  Edit `config.json` for the LoRa CLA.
+  Edit `config.json` for the LoRa CLA. Moroe information in [config/readme_cfg.md](config/readme_cfg.md)
 
 
 ### 2. Flash LoRa Modules
