@@ -1,7 +1,5 @@
 ### `config.json` Description
 
-This file configures the integration between DTN7, LoRa, and WebSocket for handling and transmitting bundles.
-
 #### Key Sections
 
 - **`lora`**: Defines the LoRa agent.
