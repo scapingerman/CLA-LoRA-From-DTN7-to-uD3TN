@@ -34,7 +34,7 @@
 
 ### 2. Flash LoRa Modules
 
-- Open `src/lora/LoRa_TX.ino` in the Arduino IDE and upload it to the transmitter module and `src/lora/LoRa_RX.ino` for the receiver module,
+- Open `src/lora/LoRa_TX.ino` in the Arduino IDE and upload it to the transmitter module and `src/lora/LoRa_RX.ino` for the receiver module.
 
 ### 3. Run WebSocket Bridges
 
