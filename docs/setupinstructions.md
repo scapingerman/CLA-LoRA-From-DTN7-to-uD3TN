@@ -94,8 +94,7 @@ Decoded into CBOR, the bundle structure appears as follows:
      [1, 1, 0, 0, "b'Hello, LORA!\\n'"]
    ]
    ```
-
-
+The bundle contains the essential information for routing and transmitting data across a DTN network. It includes the source, destination, and report-to endpoints, a timestamp, a lifetime for the bundle, and the payload message ('Hello, LORA!'). Each component is structured for efficient data exchange in a delay-tolerant network.
 
 
 - **3. Forwarding to uD3TN**
