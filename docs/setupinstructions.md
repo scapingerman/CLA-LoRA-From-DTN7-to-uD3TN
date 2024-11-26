@@ -59,6 +59,7 @@ build/posix/ud3tn --eid dtn://node1/ --bp-version 7 --aap2-port 4243 --cla "mtcp
 
 ### 5. Run WebSocket Bridges
 - **Use the provided AAP2 configuration script to establish a connection:**
+- 
 ```bash
 python tools/aap2/aap2_config.py --tcp localhost 4242 --schedule 1 3600 100000 dtn://node1/ mtcp:localhost:4225
 ```
@@ -71,6 +72,7 @@ python tools/aap2/aap2_config.py --tcp localhost 4242 --schedule 1 3600 100000 d
 
 - **2. Send a test message:**
    - Transmit data from DTN7 through LoRa to uD3TN:
+     
    ```bash
    echo "Hello, LORA!" | dtnsend -s dtn://node1/ --receiver dtn://LoRa_Local/echo
    ```
