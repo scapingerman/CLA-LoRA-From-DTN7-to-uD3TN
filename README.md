@@ -68,7 +68,7 @@ echo "Hello, LORA!" | dtnsend -s dtn://node1/ --receiver dtn://LoRa_Local/echo
 If you're working with the **Heltec LoRa 32 V3** model, keep in mind that this model uses an **ESP32-S3** microcontroller, which has some key differences compared to the standard ESP32 used in earlier versions of this board. The **ESP32-S3** introduces some additional challenges, especially when working on **Windows 11**.
 
 ### Common Issues and Solutions
-On **Windows 11**, you may face issues when trying to flash the firmware correctly. One interesting detail is that, in some cases, the operating system requires that the folder path where the project is stored doesn't contain any **spaces** or **special characters**. It might seem trivial, but I spent hours searching for a solution, and the fix turned out to be as simple as renaming the project folder and removing those characters! Although I haven't found the exact link again where I discovered this solution, I hope this helps others in similar situations.
+On Windows 11, you may encounter issues when flashing firmware if your Windows username contains spaces or special characters. The solution is to ensure that the username does not have any spaces or special characters. It might seem like a small detail, but this simple fix saved me hours of troubleshooting. While I can't find the exact link where I discovered this, I hope this helps others facing the same issue.
 
 ### Using **PlatformIO** with **rf95modem**
 For those interested in using **PlatformIO** as firmware for their **Heltec LoRa 32 V3** projects, you can use the **rf95modem** firmware. This is an excellent option for working with LoRa.
