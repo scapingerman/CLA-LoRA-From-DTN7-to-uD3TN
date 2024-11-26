@@ -28,7 +28,6 @@
 ## Step-by-Step Setup
 
 ### 1. Configure Components
--
 
 - **CLA_LoRa:**
   Edit `config.json` for the LoRa CLA.
