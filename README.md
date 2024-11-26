@@ -74,7 +74,7 @@ For those interested in using **PlatformIO** as firmware for their **Heltec LoRa
 
 - **rf95modem firmware**: [https://github.com/gh0st42/rf95modem](https://github.com/gh0st42/rf95modem)
 
-I was attempting to implement the **rf95modem** firmware on the **Heltec LoRa 32 V3**. After correctly configuring the pins in the `platformio.ini` file (as shown below), the build was successful, but when I tried to open the serial monitor in **Arduino IDE**, I encountered the following error during LoRa radio initialization:
+I was attempting to implement the **rf95modem** firmware on the **Heltec LoRa 32 V3**. After correctly configuring the pins in the `platformio.ini`, the build was successful, but in the serial monitor, I encountered the following error during LoRa radio initialization:
 ```bash
 ESP-ROM:esp32s3-20210327 Build:Mar 27 2021 rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT) SPIWP:0xee mode:DIO, clock div:1 load:0x3fce3808,len:0x4bc load:0x403c9700,len:0xbd8 load:0x403cc700,len:0x2a0c entry 0x403c98d0 rf95modem firmware (v0.7.4) Copyright (c) 2018, 2019 Lars Baumgaertner +FAIL: LoRa radio init
 ```
