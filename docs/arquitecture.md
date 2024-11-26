@@ -43,7 +43,3 @@ This project integrates **LoRaWAN** and **DTN** technologies to enable reliable 
 - **DTN7** and **uD3TN** are implemented on separate nodes or devices.
 - WebSocket interfaces act as intermediate communication layers.
 
-## Key Features
-
-- Seamless integration of DTN and LoRa protocols.
-- Customizable configuration for different scenarios.
