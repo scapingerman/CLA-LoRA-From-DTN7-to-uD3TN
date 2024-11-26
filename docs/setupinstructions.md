@@ -74,14 +74,16 @@ python tools/aap2/aap2_config.py --tcp localhost 4242 --schedule 1 3600 100000 d
 ```bash
 echo "Hello, LORA!" | dtnsend -s dtn://node1/ --receiver dtn://LoRa_Local/echo
 ```
-   Command Breakdown:
-   Creates a bundle: The payload "Hello, LORA!" is wrapped as a DTN bundle.
-   Defines the sender: dtn://node1/ acts as the sending node.
-   Defines the receiver: dtn://LoRa_Local/echo is the target node.
+- Command Breakdown:
+   - Creates a bundle: The payload "Hello, LORA!" is wrapped as a DTN bundle.
+   - Defines the sender: dtn://node1/ acts as the sending node.
+   - Defines the receiver: dtn://LoRa_Local/echo is the target node.
 
-Bundle Details
+
 The payload is encapsulated into a bundle transmitted from node1 to LoRa_Local. The WebSocket connected to the LoRa CLA captures the message in bytes:
-b'\x9f\x88\x07\x1a\x00\x02\x00\x04\x00\x82\x01q//LoRa_Local/echo\x82\x01h//node1/\x82\x01h//node1/\x82\x1b\x00\x00\x00\xb6\xdaD\xf6\x94\x00\x1a\x006\xee\x80\x85\x06\x03\x00\x00K\x82\x01h//node1/\x85\n\x02\x00\x00D\x82\x18 \x01\x85\x01\x01\x00\x00MHello, LORA!\n\xff'
+   ```bash
+               b'\x9f\x88\x07\x1a\x00\x02\x00\x04\x00\x82\x01q//LoRa_Local/echo\x82\x01h//node1/\x82\x01h//node1/\x82\x1b\x00\x00\x00\xb6\xdaD\xf6\x94\x00\x1a\x006\xee\x80\x85\x06\x03\x00\x00K\x82\x01h//node1/\x85\n\x02\x00\x00D\x82\x18 \x01\x85\x01\x01\x00\x00MHello, LORA!\n\xff'
+   ```
 
 Decoded into CBOR, the bundle structure appears as follows:
    ```bash
