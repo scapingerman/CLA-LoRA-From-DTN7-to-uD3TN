@@ -50,7 +50,7 @@ cd lora-dtn-integration
 ```
 
 ## 2. Set Up Components
-Follow the instructions in [docs/setup_instructions.md](docs/setup_instructions.md) to configure DTN7, CLA_LoRa, and uD3TN.
+Follow the instructions in [docs/setupinstructions.md](docs/setupinstructions.md) to configure DTN7, CLA_LoRa, and uD3TN.
 
 ## 3. Flash LoRa Modules
 - Use `src/lora/LoRa_TX.ino` for the transmitter module.
