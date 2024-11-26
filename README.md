@@ -13,8 +13,8 @@ This project demonstrates the integration of LoRa communication with Delay-Toler
 ├── README.md             # Project description and instructions
 ├── docs/                 # Additional documentation
 │   ├── architecture.md   # System architecture details
-│   ├── setup_instructions.md # Detailed setup steps
-│   ├── results.md # Testing methodology and results
+│   └── setupinstructions.md # Detailed setup steps
+│   
 ├── src/                  # Source code
 │   ├── websocket/        # WebSocket integration for data handling
 │   │   ├
