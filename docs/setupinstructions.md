@@ -99,14 +99,5 @@ Decoded into CBOR, the bundle structure appears as follows:
 
 
 - **3. Forwarding to uD3TN**
-- The bundle is transmitted from the LoRa end device to another node. It is processed by a WebSocket, which prepares the bundle for delivery to uD3TN through the cla_mtcp CLA.
-
-### Additional Notes
-
-
-
-
-
-
-
+The bundle is transmitted from the LoRa end device to another node. It is processed by a WebSocket, which prepares the bundle for delivery to uD3TN through the cla_mtcp CLA.
 
