@@ -11,7 +11,6 @@
      ```bash
      cd src/dtn7-rs-lora-ecla
      cargo build --release
-     cd ../..
      ```
      More information in https://github.com/BigJk/dtn7-rs-lora-ecla and https://github.com/dtn7/dtn7-rs
    
@@ -30,7 +29,7 @@
 ### 1. Configure Components
 
 - **CLA_LoRa:**
-  Edit `config.json` for the LoRa CLA. For more details, see the [configuration readme](../config/readme_cfg.me).
+  Edit `config.json` for the LoRa CLA. For more details, see the [configuration readme](../config/readme_cfg.md).
 
 
 ### 2. Flash LoRa Modules
