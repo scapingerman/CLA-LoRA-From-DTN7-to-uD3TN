@@ -1,16 +1,7 @@
 # Setup Instructions
 
 ## Prerequisites
-
-1. **Install Required Tools:**
-   - Install Python 3.x and pip.
-   - Install dependencies:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Ensure Arduino IDE is installed for flashing LoRa modules.
-
-2. **Clone and Build Repositories:**
+**Clone and Build Repositories:**
    - Clone the `lora-dtn-integration` repository:
      ```bash
      git clone https://github.com/scapingerman/lora-dtn-integration.git
@@ -23,6 +14,16 @@
      cd ../..
      ```
      More information in https://github.com/BigJk/dtn7-rs-lora-ecla and https://github.com/dtn7/dtn7-rs
+   
+   - Clone and build uD3TN:
+     ```bash
+      git clone https://gitlab.com/d3tn/ud3tn.git
+      cd ud3tn
+     git submodule update --init --recursive
+     make posix     
+     ```
+
+      More information in https://gitlab.com/d3tn/ud3tn
 
 ## Step-by-Step Setup
 
@@ -32,8 +33,6 @@
 - **CLA_LoRa:**
   Edit `config.json` for the LoRa CLA.
 
-- **uD3TN:**
-  Follow the documentation in the `uD3TN` https://gitlab.com/d3tn/ud3tn to set up the DTN stack.
 
 ### 2. Flash LoRa Modules
 
