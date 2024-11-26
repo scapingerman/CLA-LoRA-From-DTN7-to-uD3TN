@@ -11,6 +11,9 @@
      ```bash
      cd src/dtn7-rs-lora-ecla
      cargo build --release
+     cd ..
+     cd src/dtn7-rs
+     cargo build --release
      ```
      More information in https://github.com/BigJk/dtn7-rs-lora-ecla and https://github.com/dtn7/dtn7-rs
    
