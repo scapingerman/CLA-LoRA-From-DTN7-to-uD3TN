@@ -81,19 +81,19 @@ python tools/aap2/aap2_config.py --tcp localhost 4242 --schedule 1 3600 100000 d
    
    
    The payload is encapsulated into a bundle transmitted from node1 to LoRa_Local. The WebSocket connected to the LoRa CLA captures the message in bytes:
-      ```bash
-                  b'\x9f\x88\x07\x1a\x00\x02\x00\x04\x00\x82\x01q//LoRa_Local/echo\x82\x01h//node1/\x82\x01h//node1/\x82\x1b\x00\x00\x00\xb6\xdaD\xf6\x94\x00\x1a\x006\xee\x80\x85\x06\x03\x00\x00K\x82\x01h//node1/\x85\n\x02\x00\x00D\x82\x18 \x01\x85\x01\x01\x00\x00MHello, LORA!\n\xff'
-      ```
+         ```bash
+                     b'\x9f\x88\x07\x1a\x00\x02\x00\x04\x00\x82\x01q//LoRa_Local/echo\x82\x01h//node1/\x82\x01h//node1/\x82\x1b\x00\x00\x00\xb6\xdaD\xf6\x94\x00\x1a\x006\xee\x80\x85\x06\x03\x00\x00K\x82\x01h//node1/\x85\n\x02\x00\x00D\x82\x18 \x01\x85\x01\x01\x00\x00MHello, LORA!\n\xff'
+         ```
    
    Decoded into CBOR, the bundle structure appears as follows:
-      ```bash
-      [
-        [7, 131076, 0, [1, "//LoRa_Local/echo"], [1, "//node1/"], [1, "//node1/"], [785346000532, 0], 3600000],
-        [6, 3, 0, 0, "b'\\x82\\x01h//node1/'"],
-        [10, 2, 0, 0, "b'\\x82\\x18 \\x01'"],
-        [1, 1, 0, 0, "b'Hello, LORA!\\n'"]
-      ]
-      ```
+         ```bash
+         [
+           [7, 131076, 0, [1, "//LoRa_Local/echo"], [1, "//node1/"], [1, "//node1/"], [785346000532, 0], 3600000],
+           [6, 3, 0, 0, "b'\\x82\\x01h//node1/'"],
+           [10, 2, 0, 0, "b'\\x82\\x18 \\x01'"],
+           [1, 1, 0, 0, "b'Hello, LORA!\\n'"]
+         ]
+         ```
    The bundle contains the essential information for routing and transmitting data across a DTN network. It includes the source, destination, and report-to endpoints, a timestamp, a lifetime for the bundle, and the payload message ('Hello, LORA!'). Each component is structured for efficient data exchange in a delay-tolerant network.
 
 
