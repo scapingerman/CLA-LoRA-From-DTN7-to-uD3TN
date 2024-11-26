@@ -100,5 +100,5 @@ python tools/aap2/aap2_config.py --tcp localhost 4242 --schedule 1 3600 100000 d
 
 
 - **3. Forwarding to uD3TN**
-      The bundle is transmitted from the LoRa end device to another node. It is processed by a WebSocket, which prepares the bundle for delivery to uD3TN through the cla_mtcp CLA.
+   - The bundle is transmitted from the LoRa end device to another node. It is processed by a WebSocket, which prepares the bundle for delivery to uD3TN through the cla_mtcp CLA.
 
