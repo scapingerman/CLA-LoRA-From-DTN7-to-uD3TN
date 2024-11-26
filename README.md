@@ -87,28 +87,3 @@ This error suggests that the LoRa radio initialization isn't happening correctly
 
 Any guidance on how to resolve the LoRa radio initialization issue would be greatly appreciated.
 
-### **platformio.ini** File Configuration
-Here is the **platformio.ini** configuration I used to try and get **rf95modem** working with the **Heltec LoRa 32 V3** model:
-
-```ini
-[env:esp32s3_heltec_config]
-platform = espressif32
-board = heltec_wifi_lora_32_V3
-framework = arduino
-build_flags =
-  -fexceptions
-  -DRFM95_CS=8
-  -DRFM95_RST=12
-  -DRFM95_INT=14
-  -DUSE_DISPLAY
-  -DOLED_ADDRESS=0x3C
-  -DOLED_SDA=17
-  -DOLED_SCL=18
-  -DOLED_RST=21
-lib_deps =
-  ${env.lib_deps}
-  ${env.libs_display}
-board_build.partitions = no_ota.csv
-
-This platformio.ini configuration was essential for trying to match the ESP32-S3 pins on the Heltec LoRa 32 V3 with the rf95modem firmware. Although the build was successful, the issue with radio initialization persists and remains under investigation.
-
