@@ -30,7 +30,7 @@
 ### 1. Configure Components
 
 - **CLA_LoRa:**
-  Edit `config.json` for the LoRa CLA. Moroe information in [config/readme_cfg.md](config/readme_cfg.md)
+  Edit `config.json` for the LoRa CLA. For more details, see the [configuration readme](../config/readme_cfg.me).
 
 
 ### 2. Flash LoRa Modules
