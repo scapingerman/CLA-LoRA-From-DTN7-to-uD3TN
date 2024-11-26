@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the integration of LoRa communication with Delay-Tolerant Networking (DTN) protocols using DTN7 and uD3TN. The system is designed to enable efficient data transmission in scenarios where network connectivity is intermittent, leveraging LoRa's long-range and low-power characteristics with the robust data delivery mechanisms of DTN.
+This project demonstrates the integration of LoRa communication with Delay-Tolerant Networking (DTN) protocols using DTN7 and uD3TN. 
 
 ---
 
@@ -25,8 +25,8 @@ This project demonstrates the integration of LoRa communication with Delay-Toler
 │   │   ├── LoRa_RX.ino
 │   ├── dtn7-rs-lora-ecla/ # DTN7 with LoRa CLA implementation
 │   └── dtn7/             # DTN7 core
-├── configs/              # Configuration files
-│   ├── dtn7-rs-lora-ecla-config.json│   
+└── configs/              # Configuration files
+    └── dtn7-rs-lora-ecla-config.json│   
 
 ```
 # Prerequisites
@@ -45,7 +45,7 @@ To run this project, you will need:
 
 ## 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/lora-dtn-integration.git
+git clone https://github.com/scapingerman/lora-dtn-integration.git
 cd lora-dtn-integration
 ```
 
