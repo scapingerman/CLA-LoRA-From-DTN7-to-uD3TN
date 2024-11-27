@@ -51,7 +51,7 @@ sudo python3 src/websocket/RXwebsocket_to_ud3tn.py
 ### 4. Run WebSocket Bridges
 - **Run the DTN7 service:**
 ```bash
-./src/dtn7-rs-lora-ecla/target/release/loclad -c configs/dtn7-rs-lora-ecla-config.json
+./src/dtn7-rs-lora-ecla/target/release/loclad -c configs/config.json
 ```
 
 - **Start the uD3TN nodes:**
@@ -79,10 +79,10 @@ python tools/aap2/aap2_config.py --tcp localhost 4242 --schedule 1 3600 100000 d
    ```bash
    echo "Hello, LORA!" | dtnsend -s dtn://node1/ --receiver dtn://LoRa_Local/echo
    ```
-   - Command Breakdown:
-      - Creates a bundle: The payload "Hello, LORA!" is wrapped as a DTN bundle.
-      - Defines the sender: dtn://node1/ acts as the sending node.
-      - Defines the receiver: dtn://LoRa_Local/echo is the target node, and "echo" is the agent. This agent is defined as "echo" because its purpose is to instruct the uD3TN node to send the bundle back to the original sender node. However, in this example, the goal is to transmit the bundle within the uD3TN network to another node that also has the name node1 (because node1 is initially in dtn7). This process is designed to verify that the bundle can be handled correctly within the uD3TN environment and ensure successful communication between nodes.
+
+   - Creates a bundle: The payload _"Hello, LORA!"_ is wrapped as a DTN bundle.
+   - Defines the sender: _dtn://node1/_ acts as the sending node.
+   - Defines the receiver: _dtn://LoRa_Local/echo_ is the target node, and _echo_ is the agent. This agent is defined as _echo_ because its purpose is to instruct the uD3TN node to send the bundle back to the original sender node. However, in this example, the goal is to transmit the bundle within the uD3TN network to another node that also has the name node1 (because node1 is initially in dtn7). This process is designed to verify that the bundle can be handled correctly within the uD3TN environment and ensure successful communication between nodes.
    
    
    The payload is encapsulated into a bundle transmitted from node1 to LoRa_Local. The WebSocket connected to the LoRa CLA captures the message in bytes:
