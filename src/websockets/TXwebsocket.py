@@ -5,7 +5,7 @@ import serial
 # Serial port configuration for LoRa
 ser = serial.Serial('/dev/ttyUSB0', 115200)
 
-# Check if the message contains the desired byte (\x9f)
+# Check if the message contains the desired byte (\x9f) (the beginning of the bundle)
 def is_desired_message(message):
     if b'\x9f' in message:
         return True
