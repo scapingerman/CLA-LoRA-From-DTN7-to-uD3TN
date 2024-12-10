@@ -44,8 +44,8 @@
 Start the WebSocket servers for the LoRa communication bridge using the provided Python scripts:
 
 ```bash
-sudo python3 src/websocket/TXwebsocket.py
-sudo python3 src/websocket/RXwebsocket_to_ud3tn.py
+sudo python3 src/websockets/TXwebsocket.py
+sudo python3 src/websockets/RXwebsocket_to_ud3tn.py
 ```
 
 ### 4. Run WebSocket Bridges
