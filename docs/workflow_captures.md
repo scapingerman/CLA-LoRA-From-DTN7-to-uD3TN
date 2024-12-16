@@ -15,7 +15,7 @@
 ![Bundle Reception](Bundle_Reception.png)
 **Screenshot 9** - Bundle reception in WebSocket RX.
 
-![CLA MTCP Received Data](CLA_MTCP-Received_Data.png)
+![CLA MTCP Received Data](CLA_MTCP-Received_data.png)
 **Screenshot 10** - CLA MTCP: Adapts received data for µD3TN nodes.
 
 ![Processed Bundle](Processed_Bundle.png)
