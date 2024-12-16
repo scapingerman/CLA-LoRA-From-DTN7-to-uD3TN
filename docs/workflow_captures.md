@@ -1,3 +1,9 @@
+# DTN7 LoRa-DTN7 CLA Integration
+
+Below are the screenshots illustrating the workflow of the DTN7 LoRa-DTN7 CLA integration.
+
+## Screenshots
+
 ![Data Source](Data_Source.png)
 **Screenshot 5** - Data source: Generates data to be transmitted.
 
