@@ -48,9 +48,3 @@ async def main():
 # Run the main function
 asyncio.run(main())
 
-
-
-
-
-
-# dtn://node1/2:0dtn://node1/-784808206210-0"m//LoRa_Local//node1//node1/Hello, LORA
